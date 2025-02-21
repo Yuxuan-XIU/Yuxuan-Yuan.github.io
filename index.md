@@ -6,6 +6,7 @@ I am a girl who loves astronomy and science fiction! If you like them too, feel 
 
 I am currently a junior student at the Department of Astronomy, School of Physics, University of Science and Technology of China (USTC).
 
-https://github.com/Yuxuan-XIU/YuxuanYuan.github.io/blob/main/images/me.jpg
 
 ![This is me!](https://github.com/Yuxuan-XIU/YuxuanYuan.github.io/blob/main/images/me.jpg)
+
+![](./images/me.jpg "This is me!")
