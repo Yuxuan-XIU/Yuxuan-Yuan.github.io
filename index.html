@@ -50,7 +50,7 @@
         margin-top: 10px;
     }
     img {
-        width: 30%; /* 图片宽度占满其容器 */
+        width: 100%; /* 图片宽度占满其容器 */
         height: auto; /* 保持图片比例 */
         border-radius: 5px; /* 圆角处理 */
         margin: 20px 0; /* 上下各20px的外边距 */
@@ -87,6 +87,20 @@
         clear: both;
         display: table;
     }
+    .float-right {
+    float: right; /* 让图片向右浮动 */
+    margin-left: 15px; /* 给图片左侧留出一些空间，以便文本可以环绕 */
+    width: 30%; /* 你也可以根据需要调整这个值 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 5px; /* 圆角处理 */
+    }
+    .float-left {
+    float: left; /* 让图片向右浮动 */
+    margin-right: 15px; /* 给图片左侧留出一些空间，以便文本可以环绕 */
+    width: 30%; /* 你也可以根据需要调整这个值 */
+    height: auto; /* 保持图片比例 */
+    border-radius: 5px; /* 圆角处理 */
+    }
 </style>
 </head>
 <body>
@@ -108,7 +122,7 @@
 </header>
 <section id="showcase" class="showcase">
     <div class="container">
-        <img src="images/me.jpg" alt="My Photo">
+        <img src="images/me.jpg" alt="My Photo" class="float-left">
         <p>My name is Yuxuan Yuan!<p>
         <p>I am currently a third-year student at the Department of Astronomy, School of Physical Sciences, University of Science and Technology of China. <p>    
         <p>I am an enthusiast for stars and science fiction, which has guided me onto the path of astronomy. <p>
