@@ -22,7 +22,6 @@
         color: #333;
         padding-top: 30px;
         min-height: 70px;
-        border-bottom: #e8491d 3px solid;
     }
     header a {
         color: #87CEEB; 
@@ -51,9 +50,13 @@
         margin-top: 10px;
     }
     img {
-        width: 100%;
-        border-radius: 5px;
-        margin: 20px 0;
+        width: 30%; /* 图片宽度占满其容器 */
+        height: auto; /* 保持图片比例 */
+        border-radius: 5px; /* 圆角处理 */
+        margin: 20px 0; /* 上下各20px的外边距 */
+        display: block;
+        margin-left: auto;
+        margin-right: auto; /* 图片水平居中 */
     }
     .showcase {
         min-height: 400px;
@@ -107,6 +110,7 @@
     <div class="container">
         <img src="images/me.jpg" alt="My Photo">
         <p>I am Yuxuan Yuan This is me!</p>
+        <p><p>
     </div>
 </section>
 <section id="hometown">
