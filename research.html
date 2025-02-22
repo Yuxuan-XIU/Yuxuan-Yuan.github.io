@@ -100,6 +100,25 @@
     height: auto; /* 保持图片比例 */
     border-radius: 5px; /* 圆角处理 */
     }
+    .project {
+    margin-bottom: 20px;
+    cursor: pointer;
+    }
+    .project img {
+        width: 100%;
+        height: auto;
+    }
+
+    .project h3 {
+        text-align: center;
+    }
+
+    .project-details {
+        display: none;
+        padding: 20px;
+        background: #fff;
+        margin: 20px 0;
+    }
 </style>
 </head>
 <body>
@@ -110,7 +129,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="https://yuxuan-xiu.github.io/YuxuanYuan.github.io">About Me</a></li>
+                <li><a href="https://yuxuan-xiu.github.io/YuxuanYuan.github.io/">About Me</a></li>
                 <li><a href="https://yuxuan-xiu.github.io/YuxuanYuan.github.io/research">Research</a></li>
                 <li><a href="https://yuxuan-xiu.github.io/YuxuanYuan.github.io/blog">Blog</a></li>
                 <li><a href="https://yuxuan-xiu.github.io/YuxuanYuan.github.io/services">What can I do for you</a></li>
@@ -120,15 +139,32 @@
         </nav>
     </div>
 </header>
-<section id="contact">
+<section id="projects">
     <div class="container">
-        <h2>contact me</h2>
-        <p>QQ: 1489096786<p>
-        <p>Email: yuanyuxuan@mail.ustc.edu.cn<p>    
+        <div class="project" data-target="#project1">
+            <img src="image1.jpg" alt="Project 1 Image">
+            <h3>项目一</h3>
+        </div>
+        <div class="project" data-target="#project2">
+            <img src="image2.jpg" alt="Project 2 Image">
+            <h3>项目二</h3>
+        </div>
     </div>
 </section>
+
+<section id="project1" class="project-details">
+    <h2>项目一详情</h2>
+    <p>这里是项目一的具体介绍。</p>
+</section>
+
+<section id="project2" class="project-details">
+    <h2>项目二详情</h2>
+    <p>这里是项目二的具体介绍。</p>
+</section>
+
 <footer>
     <p>Yuxuan Yuan, Copyright &copy; 2023</p>
 </footer>
+
 </body>
 </html>
